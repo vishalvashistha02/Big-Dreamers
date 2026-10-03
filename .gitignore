@@ -1,0 +1,22 @@
+# ==============================
+# Big Dreamers Root Gitignore
+# ==============================
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Scratch / temporary testing scripts
+scratch/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE
+.idea/
+.vscode/
